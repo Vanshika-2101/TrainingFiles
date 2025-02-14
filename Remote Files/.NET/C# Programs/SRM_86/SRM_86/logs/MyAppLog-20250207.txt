@@ -1,0 +1,77 @@
+2025-02-07 17:25:08.170 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-02-07 17:25:08.311 +05:30 [INF] Now listening on: https://localhost:7055
+2025-02-07 17:25:08.313 +05:30 [INF] Now listening on: http://localhost:5135
+2025-02-07 17:25:08.351 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 17:25:08.352 +05:30 [INF] Hosting environment: Development
+2025-02-07 17:25:08.353 +05:30 [INF] Content root path: C:\Users\vaaggarwal\Desktop\.NET\C# Programs\SRM_86\SRM_86
+2025-02-07 17:25:09.046 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger - null null
+2025-02-07 17:25:09.190 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger - 301 0 null 149.8839ms
+2025-02-07 17:25:09.195 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/index.html - null null
+2025-02-07 17:25:09.239 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/index.html - 200 null text/html;charset=utf-8 44.3906ms
+2025-02-07 17:25:09.244 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/swagger-ui-standalone-preset.js - null null
+2025-02-07 17:25:09.244 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7055/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-07 17:25:09.243 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/swagger-ui.css - null null
+2025-02-07 17:25:09.244 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/swagger-ui-bundle.js - null null
+2025-02-07 17:25:09.263 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7055/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 19.0329ms
+2025-02-07 17:25:09.265 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7055/_vs/browserLink - null null
+2025-02-07 17:25:09.299 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-02-07 17:25:09.299 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-02-07 17:25:09.307 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/swagger-ui.css - 200 152034 text/css 63.4587ms
+2025-02-07 17:25:09.308 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 64.4345ms
+2025-02-07 17:25:09.316 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-02-07 17:25:09.323 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 79.5945ms
+2025-02-07 17:25:09.336 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7055/_vs/browserLink - 200 null text/javascript; charset=UTF-8 70.7049ms
+2025-02-07 17:25:09.434 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7055/swagger/v1/swagger.json - null null
+2025-02-07 17:25:09.452 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7055/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.1208ms
+2025-02-07 17:25:18.942 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7055/api/Equities/EquityInfo - null null
+2025-02-07 17:25:18.960 +05:30 [INF] Executing endpoint 'SRM_86.Controllers.EquitiesController.GetEquities (SRM_86)'
+2025-02-07 17:25:18.981 +05:30 [INF] Route matched with {action = "GetEquities", controller = "Equities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SRM_86.Models.Equity]]] GetEquities() on controller SRM_86.Controllers.EquitiesController (SRM_86).
+2025-02-07 17:25:19.154 +05:30 [INF] Executed action SRM_86.Controllers.EquitiesController.GetEquities (SRM_86) in 166.2133ms
+2025-02-07 17:25:19.159 +05:30 [INF] Executed endpoint 'SRM_86.Controllers.EquitiesController.GetEquities (SRM_86)'
+2025-02-07 17:25:19.279 +05:30 [ERR] An unexpected error occurred
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'SRM_86.Controllers.EquitiesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\vaaggarwal\Desktop\.NET\C# Programs\SRM_86\SRM_86\Middlewares\ExceptionHandlingMiddleware.cs:line 19
+2025-02-07 17:25:20.367 +05:30 [INF] Executed DbCommand (44ms) [Parameters=[@p0='?' (Size = 50) (DbType = AnsiString), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime), @p6='?' (Size = 255) (DbType = AnsiString), @p7='?' (DbType = Int32), @p8='?' (Size = 255) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AuditLog] ([ActionType], [Comments], [EndTimestamp], [NewValue], [OldValue], [StartTimestamp], [TableName], [UserId], [Username])
+OUTPUT INSERTED.[AuditID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2025-02-07 17:25:20.404 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7055/api/Equities/EquityInfo - 500 null application/json 1462.193ms
+2025-02-07 17:25:29.402 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7055/api/Equities/EquityInfo - null null
+2025-02-07 17:25:29.410 +05:30 [INF] Executing endpoint 'SRM_86.Controllers.EquitiesController.GetEquities (SRM_86)'
+2025-02-07 17:25:29.412 +05:30 [INF] Route matched with {action = "GetEquities", controller = "Equities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SRM_86.Models.Equity]]] GetEquities() on controller SRM_86.Controllers.EquitiesController (SRM_86).
+2025-02-07 17:25:29.416 +05:30 [INF] Executed action SRM_86.Controllers.EquitiesController.GetEquities (SRM_86) in 1.5318ms
+2025-02-07 17:25:29.418 +05:30 [INF] Executed endpoint 'SRM_86.Controllers.EquitiesController.GetEquities (SRM_86)'
+2025-02-07 17:25:29.466 +05:30 [ERR] An unexpected error occurred
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'SRM_86.Controllers.EquitiesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\vaaggarwal\Desktop\.NET\C# Programs\SRM_86\SRM_86\Middlewares\ExceptionHandlingMiddleware.cs:line 19
+2025-02-07 17:25:29.531 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (Size = 50) (DbType = AnsiString), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime), @p6='?' (Size = 255) (DbType = AnsiString), @p7='?' (DbType = Int32), @p8='?' (Size = 255) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AuditLog] ([ActionType], [Comments], [EndTimestamp], [NewValue], [OldValue], [StartTimestamp], [TableName], [UserId], [Username])
+OUTPUT INSERTED.[AuditID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2025-02-07 17:25:29.538 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7055/api/Equities/EquityInfo - 500 null application/json 137.1079ms

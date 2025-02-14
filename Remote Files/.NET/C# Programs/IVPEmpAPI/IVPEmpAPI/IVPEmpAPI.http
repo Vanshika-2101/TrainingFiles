@@ -1,0 +1,6 @@
+@IVPEmpAPI_HostAddress = http://localhost:5043
+
+GET {{IVPEmpAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

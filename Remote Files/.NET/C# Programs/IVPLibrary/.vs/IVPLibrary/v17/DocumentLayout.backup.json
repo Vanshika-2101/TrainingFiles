@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPLibrary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE963695-3787-409E-A397-BE04F2D2C527}|IVPLibraryConsole\\IVPLibraryConsole.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\ivplibrary\\ivplibraryconsole\\bookrepo\\bookoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE963695-3787-409E-A397-BE04F2D2C527}|IVPLibraryConsole\\IVPLibraryConsole.csproj|solutionrelative:ivplibraryconsole\\bookrepo\\bookoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE963695-3787-409E-A397-BE04F2D2C527}|IVPLibraryConsole\\IVPLibraryConsole.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\ivplibrary\\ivplibraryconsole\\controller\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE963695-3787-409E-A397-BE04F2D2C527}|IVPLibraryConsole\\IVPLibraryConsole.csproj|solutionrelative:ivplibraryconsole\\controller\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E044B75D-F6F9-4B3F-B0AC-E0FC77352502}|IVPLibrary_DataAccess\\IVPLibrary_DataAccess.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\ivplibrary\\ivplibrary_dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E044B75D-F6F9-4B3F-B0AC-E0FC77352502}|IVPLibrary_DataAccess\\IVPLibrary_DataAccess.csproj|solutionrelative:ivplibrary_dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE963695-3787-409E-A397-BE04F2D2C527}|IVPLibraryConsole\\IVPLibraryConsole.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\ivplibrary\\ivplibraryconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE963695-3787-409E-A397-BE04F2D2C527}|IVPLibraryConsole\\IVPLibraryConsole.csproj|solutionrelative:ivplibraryconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE963695-3787-409E-A397-BE04F2D2C527}|IVPLibraryConsole\\IVPLibraryConsole.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\ivplibrary\\ivplibraryconsole\\bookrepo\\ibook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE963695-3787-409E-A397-BE04F2D2C527}|IVPLibraryConsole\\IVPLibraryConsole.csproj|solutionrelative:ivplibraryconsole\\bookrepo\\ibook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IBook.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPLibrary\\IVPLibraryConsole\\BookRepo\\IBook.cs",
+              "RelativeDocumentMoniker": "IVPLibraryConsole\\BookRepo\\IBook.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPLibrary\\IVPLibraryConsole\\BookRepo\\IBook.cs",
+              "RelativeToolTip": "IVPLibraryConsole\\BookRepo\\IBook.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T11:41:41.7Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPLibrary\\IVPLibraryConsole\\Controller\\BookController.cs",
+              "RelativeDocumentMoniker": "IVPLibraryConsole\\Controller\\BookController.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPLibrary\\IVPLibraryConsole\\Controller\\BookController.cs",
+              "RelativeToolTip": "IVPLibraryConsole\\Controller\\BookController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T12:06:25.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookOperations.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPLibrary\\IVPLibraryConsole\\BookRepo\\BookOperations.cs",
+              "RelativeDocumentMoniker": "IVPLibraryConsole\\BookRepo\\BookOperations.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPLibrary\\IVPLibraryConsole\\BookRepo\\BookOperations.cs",
+              "RelativeToolTip": "IVPLibraryConsole\\BookRepo\\BookOperations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T11:08:33.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPLibrary\\IVPLibrary_DataAccess\\Data\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "IVPLibrary_DataAccess\\Data\\ApplicationDBContext.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPLibrary\\IVPLibrary_DataAccess\\Data\\ApplicationDBContext.cs",
+              "RelativeToolTip": "IVPLibrary_DataAccess\\Data\\ApplicationDBContext.cs",
+              "ViewState": "AgIAAAgAAABAZ2ZmZuYswEEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T09:01:49.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPLibrary\\IVPLibraryConsole\\Program.cs",
+              "RelativeDocumentMoniker": "IVPLibraryConsole\\Program.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPLibrary\\IVPLibraryConsole\\Program.cs",
+              "RelativeToolTip": "IVPLibraryConsole\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T08:50:55.75Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

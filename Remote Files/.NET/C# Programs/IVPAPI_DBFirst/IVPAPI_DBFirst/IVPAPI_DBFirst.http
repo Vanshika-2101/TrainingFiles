@@ -1,0 +1,6 @@
+@IVPAPI_DBFirst_HostAddress = http://localhost:5117
+
+GET {{IVPAPI_DBFirst_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

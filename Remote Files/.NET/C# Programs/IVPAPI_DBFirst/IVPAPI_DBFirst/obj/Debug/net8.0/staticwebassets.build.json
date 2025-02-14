@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "69+1pDJpMKcclPdjX9yLM7tswf04DZjv6VajuY7eTMY=",
+  "Source": "IVPAPI_DBFirst",
+  "BasePath": "_content/IVPAPI_DBFirst",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

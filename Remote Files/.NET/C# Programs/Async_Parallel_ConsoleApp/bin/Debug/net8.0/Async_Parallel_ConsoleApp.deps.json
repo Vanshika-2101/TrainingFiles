@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Async_Parallel_ConsoleApp/1.0.0": {
+        "runtime": {
+          "Async_Parallel_ConsoleApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Async_Parallel_ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,17 @@
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLibrary\IVPLibrary_DataAccess\bin\Debug\net8.0\IVPLibrary_DataAccess.deps.json
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLibrary\IVPLibrary_DataAccess\bin\Debug\net8.0\IVPLibrary_DataAccess.runtimeconfig.json
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLibrary\IVPLibrary_DataAccess\bin\Debug\net8.0\IVPLibrary_DataAccess.dll
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLibrary\IVPLibrary_DataAccess\bin\Debug\net8.0\IVPLibrary_DataAccess.pdb
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLibrary\IVPLibrary_DataAccess\bin\Debug\net8.0\IVPLibrary_Models.dll
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLibrary\IVPLibrary_DataAccess\bin\Debug\net8.0\IVPLibrary_Models.pdb
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLibrary\IVPLibrary_DataAccess\obj\Debug\net8.0\IVPLibrary_DataAccess.csproj.AssemblyReference.cache
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLibrary\IVPLibrary_DataAccess\obj\Debug\net8.0\IVPLibrary_DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLibrary\IVPLibrary_DataAccess\obj\Debug\net8.0\IVPLibrary_DataAccess.AssemblyInfoInputs.cache
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLibrary\IVPLibrary_DataAccess\obj\Debug\net8.0\IVPLibrary_DataAccess.AssemblyInfo.cs
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLibrary\IVPLibrary_DataAccess\obj\Debug\net8.0\IVPLibrary_DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLibrary\IVPLibrary_DataAccess\obj\Debug\net8.0\IVPLibra.A4D05B84.Up2Date
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLibrary\IVPLibrary_DataAccess\obj\Debug\net8.0\IVPLibrary_DataAccess.dll
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLibrary\IVPLibrary_DataAccess\obj\Debug\net8.0\refint\IVPLibrary_DataAccess.dll
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLibrary\IVPLibrary_DataAccess\obj\Debug\net8.0\IVPLibrary_DataAccess.pdb
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLibrary\IVPLibrary_DataAccess\obj\Debug\net8.0\IVPLibrary_DataAccess.genruntimeconfig.cache
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLibrary\IVPLibrary_DataAccess\obj\Debug\net8.0\ref\IVPLibrary_DataAccess.dll

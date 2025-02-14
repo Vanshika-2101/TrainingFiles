@@ -1,0 +1,176 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPEmpAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B955E619-CD95-4ED9-9551-3D110CF802A6}|IVPEmpAPI\\IVPEmpAPI.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\ivpempapi\\ivpempapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B955E619-CD95-4ED9-9551-3D110CF802A6}|IVPEmpAPI\\IVPEmpAPI.csproj|solutionrelative:ivpempapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B955E619-CD95-4ED9-9551-3D110CF802A6}|IVPEmpAPI\\IVPEmpAPI.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\ivpempapi\\ivpempapi\\employeerepo\\employeeops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B955E619-CD95-4ED9-9551-3D110CF802A6}|IVPEmpAPI\\IVPEmpAPI.csproj|solutionrelative:ivpempapi\\employeerepo\\employeeops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B955E619-CD95-4ED9-9551-3D110CF802A6}|IVPEmpAPI\\IVPEmpAPI.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\ivpempapi\\ivpempapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B955E619-CD95-4ED9-9551-3D110CF802A6}|IVPEmpAPI\\IVPEmpAPI.csproj|solutionrelative:ivpempapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DD42967-BA8D-4725-8851-51DCEB640A4F}|EmpModels\\EmpModels.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\ivpempapi\\empmodels\\empmodels.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8DD42967-BA8D-4725-8851-51DCEB640A4F}|EmpModels\\EmpModels.csproj|solutionrelative:empmodels\\empmodels.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B955E619-CD95-4ED9-9551-3D110CF802A6}|IVPEmpAPI\\IVPEmpAPI.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\ivpempapi\\ivpempapi\\employeerepo\\iemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B955E619-CD95-4ED9-9551-3D110CF802A6}|IVPEmpAPI\\IVPEmpAPI.csproj|solutionrelative:ivpempapi\\employeerepo\\iemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B955E619-CD95-4ED9-9551-3D110CF802A6}|IVPEmpAPI\\IVPEmpAPI.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\ivpempapi\\ivpempapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B955E619-CD95-4ED9-9551-3D110CF802A6}|IVPEmpAPI\\IVPEmpAPI.csproj|solutionrelative:ivpempapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B955E619-CD95-4ED9-9551-3D110CF802A6}|IVPEmpAPI\\IVPEmpAPI.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\ivpempapi\\ivpempapi\\ivpempapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{B955E619-CD95-4ED9-9551-3D110CF802A6}|IVPEmpAPI\\IVPEmpAPI.csproj|solutionrelative:ivpempapi\\ivpempapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DD42967-BA8D-4725-8851-51DCEB640A4F}|EmpModels\\EmpModels.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\ivpempapi\\empmodels\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DD42967-BA8D-4725-8851-51DCEB640A4F}|EmpModels\\EmpModels.csproj|solutionrelative:empmodels\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7587ABEE-A9D0-429A-85AB-9CC99E421C89}|EmpDataAccess\\EmpDataAccess.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\ivpempapi\\empdataaccess\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7587ABEE-A9D0-429A-85AB-9CC99E421C89}|EmpDataAccess\\EmpDataAccess.csproj|solutionrelative:empdataaccess\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeOps.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPEmpAPI\\IVPEmpAPI\\EmployeeRepo\\EmployeeOps.cs",
+              "RelativeDocumentMoniker": "IVPEmpAPI\\EmployeeRepo\\EmployeeOps.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPEmpAPI\\IVPEmpAPI\\EmployeeRepo\\EmployeeOps.cs",
+              "RelativeToolTip": "IVPEmpAPI\\EmployeeRepo\\EmployeeOps.cs",
+              "ViewState": "AgIAAC8AAACAzczMzIwqwC4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T09:36:09.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmpModels.csproj",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPEmpAPI\\EmpModels\\EmpModels.csproj",
+              "RelativeDocumentMoniker": "EmpModels\\EmpModels.csproj",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPEmpAPI\\EmpModels\\EmpModels.csproj",
+              "RelativeToolTip": "EmpModels\\EmpModels.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-04T09:35:51.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPEmpAPI\\IVPEmpAPI\\Program.cs",
+              "RelativeDocumentMoniker": "IVPEmpAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPEmpAPI\\IVPEmpAPI\\Program.cs",
+              "RelativeToolTip": "IVPEmpAPI\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwvQkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T05:48:55.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPEmpAPI\\IVPEmpAPI\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "IVPEmpAPI\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPEmpAPI\\IVPEmpAPI\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "IVPEmpAPI\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAADkAAAAQNDMzM3MlwEgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T05:48:29.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPEmpAPI\\IVPEmpAPI\\EmployeeRepo\\IEmployee.cs",
+              "RelativeDocumentMoniker": "IVPEmpAPI\\EmployeeRepo\\IEmployee.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPEmpAPI\\IVPEmpAPI\\EmployeeRepo\\IEmployee.cs",
+              "RelativeToolTip": "IVPEmpAPI\\EmployeeRepo\\IEmployee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T05:48:11.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPEmpAPI\\IVPEmpAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "IVPEmpAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPEmpAPI\\IVPEmpAPI\\appsettings.json",
+              "RelativeToolTip": "IVPEmpAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-29T05:48:09.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IVPEmpAPI",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPEmpAPI\\IVPEmpAPI\\IVPEmpAPI.csproj",
+              "RelativeDocumentMoniker": "IVPEmpAPI\\IVPEmpAPI.csproj",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPEmpAPI\\IVPEmpAPI\\IVPEmpAPI.csproj",
+              "RelativeToolTip": "IVPEmpAPI\\IVPEmpAPI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-29T05:47:21.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPEmpAPI\\EmpModels\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "EmpModels\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPEmpAPI\\EmpModels\\Models\\Student.cs",
+              "RelativeToolTip": "EmpModels\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T05:47:12.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPEmpAPI\\EmpDataAccess\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "EmpDataAccess\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVPEmpAPI\\EmpDataAccess\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "EmpDataAccess\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T12:31:23.65Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

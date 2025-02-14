@@ -1,0 +1,17 @@
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpDataAccess\bin\Debug\net8.0\EmpDataAccess.deps.json
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpDataAccess\bin\Debug\net8.0\EmpDataAccess.dll
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpDataAccess\bin\Debug\net8.0\EmpDataAccess.pdb
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpDataAccess\bin\Debug\net8.0\EmpModels.dll
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpDataAccess\bin\Debug\net8.0\EmpModels.pdb
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpDataAccess\obj\Debug\net8.0\EmpDataAccess.csproj.AssemblyReference.cache
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpDataAccess\obj\Debug\net8.0\EmpDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpDataAccess\obj\Debug\net8.0\EmpDataAccess.AssemblyInfoInputs.cache
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpDataAccess\obj\Debug\net8.0\EmpDataAccess.AssemblyInfo.cs
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpDataAccess\obj\Debug\net8.0\EmpDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpDataAccess\obj\Debug\net8.0\EmpDataA.9E98A91E.Up2Date
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpDataAccess\obj\Debug\net8.0\EmpDataAccess.dll
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpDataAccess\obj\Debug\net8.0\refint\EmpDataAccess.dll
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpDataAccess\obj\Debug\net8.0\EmpDataAccess.pdb
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpDataAccess\obj\Debug\net8.0\ref\EmpDataAccess.dll
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpDataAccess\bin\Debug\net8.0\EmpDataAccess.runtimeconfig.json
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpDataAccess\obj\Debug\net8.0\EmpDataAccess.genruntimeconfig.cache

@@ -1,0 +1,81 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\MyApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE27A01-6DA5-47FE-A6EE-0ED59361C827}|GradeTest\\GradeTest.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\myapp\\gradetest\\mybanktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE27A01-6DA5-47FE-A6EE-0ED59361C827}|GradeTest\\GradeTest.csproj|solutionrelative:gradetest\\mybanktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E3EEE-0573-4A72-B470-E50E3B92398F}|MyApp\\MyApp.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\myapp\\myapp\\mybank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E4E3EEE-0573-4A72-B470-E50E3B92398F}|MyApp\\MyApp.csproj|solutionrelative:myapp\\mybank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE27A01-6DA5-47FE-A6EE-0ED59361C827}|GradeTest\\GradeTest.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\myapp\\gradetest\\gradecalctests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE27A01-6DA5-47FE-A6EE-0ED59361C827}|GradeTest\\GradeTest.csproj|solutionrelative:gradetest\\gradecalctests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GradeCalcTests.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\MyApp\\GradeTest\\GradeCalcTests.cs",
+              "RelativeDocumentMoniker": "GradeTest\\GradeCalcTests.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\MyApp\\GradeTest\\GradeCalcTests.cs",
+              "RelativeToolTip": "GradeTest\\GradeCalcTests.cs",
+              "ViewState": "AgIAAAUAAAAYzczMzMwrwBYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T08:47:46.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyBankTests.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\MyApp\\GradeTest\\MyBankTests.cs",
+              "RelativeDocumentMoniker": "GradeTest\\MyBankTests.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\MyApp\\GradeTest\\MyBankTests.cs",
+              "RelativeToolTip": "GradeTest\\MyBankTests.cs",
+              "ViewState": "AgIAABUAAACAMjMzMzMIwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T07:47:54.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyBank.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\MyApp\\MyApp\\MyBank.cs",
+              "RelativeDocumentMoniker": "MyApp\\MyBank.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\MyApp\\MyApp\\MyBank.cs",
+              "RelativeToolTip": "MyApp\\MyBank.cs",
+              "ViewState": "AgIAABwAAADAZ2ZmZuYRwCgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T07:47:41.262Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\MicrosoftWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{213DE080-2263-4182-A0BD-85426AEC840C}|MicrosoftWebApp\\MicrosoftWebApp.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\microsoftwebapp\\microsoftwebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{213DE080-2263-4182-A0BD-85426AEC840C}|MicrosoftWebApp\\MicrosoftWebApp.csproj|solutionrelative:microsoftwebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213DE080-2263-4182-A0BD-85426AEC840C}|MicrosoftWebApp\\MicrosoftWebApp.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\microsoftwebapp\\microsoftwebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{213DE080-2263-4182-A0BD-85426AEC840C}|MicrosoftWebApp\\MicrosoftWebApp.csproj|solutionrelative:microsoftwebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213DE080-2263-4182-A0BD-85426AEC840C}|MicrosoftWebApp\\MicrosoftWebApp.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\microsoftwebapp\\microsoftwebapp\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213DE080-2263-4182-A0BD-85426AEC840C}|MicrosoftWebApp\\MicrosoftWebApp.csproj|solutionrelative:microsoftwebapp\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213DE080-2263-4182-A0BD-85426AEC840C}|MicrosoftWebApp\\MicrosoftWebApp.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\microsoftwebapp\\microsoftwebapp\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213DE080-2263-4182-A0BD-85426AEC840C}|MicrosoftWebApp\\MicrosoftWebApp.csproj|solutionrelative:microsoftwebapp\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213DE080-2263-4182-A0BD-85426AEC840C}|MicrosoftWebApp\\MicrosoftWebApp.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\microsoftwebapp\\microsoftwebapp\\controllers\\bankscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213DE080-2263-4182-A0BD-85426AEC840C}|MicrosoftWebApp\\MicrosoftWebApp.csproj|solutionrelative:microsoftwebapp\\controllers\\bankscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213DE080-2263-4182-A0BD-85426AEC840C}|MicrosoftWebApp\\MicrosoftWebApp.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\microsoftwebapp\\microsoftwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213DE080-2263-4182-A0BD-85426AEC840C}|MicrosoftWebApp\\MicrosoftWebApp.csproj|solutionrelative:microsoftwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213DE080-2263-4182-A0BD-85426AEC840C}|MicrosoftWebApp\\MicrosoftWebApp.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\microsoftwebapp\\microsoftwebapp\\models\\microsoftcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213DE080-2263-4182-A0BD-85426AEC840C}|MicrosoftWebApp\\MicrosoftWebApp.csproj|solutionrelative:microsoftwebapp\\models\\microsoftcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213DE080-2263-4182-A0BD-85426AEC840C}|MicrosoftWebApp\\MicrosoftWebApp.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\microsoftwebapp\\microsoftwebapp\\microsoftwebapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{213DE080-2263-4182-A0BD-85426AEC840C}|MicrosoftWebApp\\MicrosoftWebApp.csproj|solutionrelative:microsoftwebapp\\microsoftwebapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\MicrosoftWebApp\\MicrosoftWebApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MicrosoftWebApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\MicrosoftWebApp\\MicrosoftWebApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MicrosoftWebApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T12:50:14.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\MicrosoftWebApp\\MicrosoftWebApp\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "MicrosoftWebApp\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\MicrosoftWebApp\\MicrosoftWebApp\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "MicrosoftWebApp\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T12:47:55.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\MicrosoftWebApp\\MicrosoftWebApp\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "MicrosoftWebApp\\Controllers\\DepartmentsController.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\MicrosoftWebApp\\MicrosoftWebApp\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "MicrosoftWebApp\\Controllers\\DepartmentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T12:44:59.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BanksController.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\MicrosoftWebApp\\MicrosoftWebApp\\Controllers\\BanksController.cs",
+              "RelativeDocumentMoniker": "MicrosoftWebApp\\Controllers\\BanksController.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\MicrosoftWebApp\\MicrosoftWebApp\\Controllers\\BanksController.cs",
+              "RelativeToolTip": "MicrosoftWebApp\\Controllers\\BanksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T12:44:23.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\MicrosoftWebApp\\MicrosoftWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "MicrosoftWebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\MicrosoftWebApp\\MicrosoftWebApp\\Program.cs",
+              "RelativeToolTip": "MicrosoftWebApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T12:30:57.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\MicrosoftWebApp\\MicrosoftWebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "MicrosoftWebApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\MicrosoftWebApp\\MicrosoftWebApp\\appsettings.json",
+              "RelativeToolTip": "MicrosoftWebApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-24T12:27:41.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MicrosoftWebApp",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\MicrosoftWebApp\\MicrosoftWebApp\\MicrosoftWebApp.csproj",
+              "RelativeDocumentMoniker": "MicrosoftWebApp\\MicrosoftWebApp.csproj",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\MicrosoftWebApp\\MicrosoftWebApp\\MicrosoftWebApp.csproj",
+              "RelativeToolTip": "MicrosoftWebApp\\MicrosoftWebApp.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-24T12:27:27.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MicrosoftContext.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\MicrosoftWebApp\\MicrosoftWebApp\\Models\\MicrosoftContext.cs",
+              "RelativeDocumentMoniker": "MicrosoftWebApp\\Models\\MicrosoftContext.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\MicrosoftWebApp\\MicrosoftWebApp\\Models\\MicrosoftContext.cs",
+              "RelativeToolTip": "MicrosoftWebApp\\Models\\MicrosoftContext.cs",
+              "ViewState": "AgIAAAsAAACAzMzMzMwWwB4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T12:27:20.019Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

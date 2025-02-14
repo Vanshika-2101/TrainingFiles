@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "3+KzBDB6/kJhSc9ijbPHRuxwW3Jt/iCP0QKf9P5wKy4=",
+  "Source": "IVPEmpAPI",
+  "BasePath": "_content/IVPEmpAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

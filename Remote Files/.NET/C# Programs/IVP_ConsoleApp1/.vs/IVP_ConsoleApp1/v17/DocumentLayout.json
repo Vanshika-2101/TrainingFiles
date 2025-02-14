@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVP_ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C6D3C25-FE8D-463D-B4F7-0CA9A6C696D0}|IVP_ConsoleApp1\\IVP_ConsoleApp1.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\ivp_consoleapp1\\ivp_consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C6D3C25-FE8D-463D-B4F7-0CA9A6C696D0}|IVP_ConsoleApp1\\IVP_ConsoleApp1.csproj|solutionrelative:ivp_consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVP_ConsoleApp1\\IVP_ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "IVP_ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\IVP_ConsoleApp1\\IVP_ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "IVP_ConsoleApp1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T05:56:35.412Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

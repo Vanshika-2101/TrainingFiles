@@ -1,0 +1,11 @@
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\TableLibrary\obj\Debug\net8.0\TableLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\TableLibrary\obj\Debug\net8.0\TableLibrary.AssemblyInfoInputs.cache
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\TableLibrary\obj\Debug\net8.0\TableLibrary.AssemblyInfo.cs
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\TableLibrary\obj\Debug\net8.0\TableLibrary.csproj.CoreCompileInputs.cache
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\TableLibrary\bin\Debug\net8.0\TableLibrary.deps.json
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\TableLibrary\bin\Debug\net8.0\TableLibrary.dll
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\TableLibrary\bin\Debug\net8.0\TableLibrary.pdb
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\TableLibrary\obj\Debug\net8.0\TableLibrary.dll
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\TableLibrary\obj\Debug\net8.0\refint\TableLibrary.dll
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\TableLibrary\obj\Debug\net8.0\TableLibrary.pdb
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\TableLibrary\obj\Debug\net8.0\ref\TableLibrary.dll

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\IVPAPI_DBFirst.props" />
+</Project>

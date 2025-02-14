@@ -1,0 +1,193 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\SRM_86\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08BDEE3F-787B-4931-997D-C1D6B296A62F}|SRM_86\\SRM_86.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\srm_86\\srm_86\\repo\\equitiesops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08BDEE3F-787B-4931-997D-C1D6B296A62F}|SRM_86\\SRM_86.csproj|solutionrelative:srm_86\\repo\\equitiesops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08BDEE3F-787B-4931-997D-C1D6B296A62F}|SRM_86\\SRM_86.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\srm_86\\srm_86\\services\\auditlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08BDEE3F-787B-4931-997D-C1D6B296A62F}|SRM_86\\SRM_86.csproj|solutionrelative:srm_86\\services\\auditlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08BDEE3F-787B-4931-997D-C1D6B296A62F}|SRM_86\\SRM_86.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\srm_86\\srm_86\\repo\\bondops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08BDEE3F-787B-4931-997D-C1D6B296A62F}|SRM_86\\SRM_86.csproj|solutionrelative:srm_86\\repo\\bondops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08BDEE3F-787B-4931-997D-C1D6B296A62F}|SRM_86\\SRM_86.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\srm_86\\srm_86\\controllers\\equitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08BDEE3F-787B-4931-997D-C1D6B296A62F}|SRM_86\\SRM_86.csproj|solutionrelative:srm_86\\controllers\\equitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08BDEE3F-787B-4931-997D-C1D6B296A62F}|SRM_86\\SRM_86.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\srm_86\\srm_86\\services\\exceptionloggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08BDEE3F-787B-4931-997D-C1D6B296A62F}|SRM_86\\SRM_86.csproj|solutionrelative:srm_86\\services\\exceptionloggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08BDEE3F-787B-4931-997D-C1D6B296A62F}|SRM_86\\SRM_86.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\srm_86\\srm_86\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08BDEE3F-787B-4931-997D-C1D6B296A62F}|SRM_86\\SRM_86.csproj|solutionrelative:srm_86\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08BDEE3F-787B-4931-997D-C1D6B296A62F}|SRM_86\\SRM_86.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\srm_86\\srm_86\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{08BDEE3F-787B-4931-997D-C1D6B296A62F}|SRM_86\\SRM_86.csproj|solutionrelative:srm_86\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08BDEE3F-787B-4931-997D-C1D6B296A62F}|SRM_86\\SRM_86.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\srm_86\\srm_86\\models\\equity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08BDEE3F-787B-4931-997D-C1D6B296A62F}|SRM_86\\SRM_86.csproj|solutionrelative:srm_86\\models\\equity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08BDEE3F-787B-4931-997D-C1D6B296A62F}|SRM_86\\SRM_86.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\srm_86\\srm_86\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08BDEE3F-787B-4931-997D-C1D6B296A62F}|SRM_86\\SRM_86.csproj|solutionrelative:srm_86\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08BDEE3F-787B-4931-997D-C1D6B296A62F}|SRM_86\\SRM_86.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\srm_86\\srm_86\\controllers\\bondscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08BDEE3F-787B-4931-997D-C1D6B296A62F}|SRM_86\\SRM_86.csproj|solutionrelative:srm_86\\controllers\\bondscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuditLogService.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\SRM_86\\SRM_86\\Services\\AuditLogService.cs",
+              "RelativeDocumentMoniker": "SRM_86\\Services\\AuditLogService.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\SRM_86\\SRM_86\\Services\\AuditLogService.cs",
+              "RelativeToolTip": "SRM_86\\Services\\AuditLogService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T10:43:37.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BondOps.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\SRM_86\\SRM_86\\Repo\\BondOps.cs",
+              "RelativeDocumentMoniker": "SRM_86\\Repo\\BondOps.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\SRM_86\\SRM_86\\Repo\\BondOps.cs",
+              "RelativeToolTip": "SRM_86\\Repo\\BondOps.cs",
+              "ViewState": "AgIAAMEAAACA1szMzAwvwPsAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T16:21:03.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EquitiesController.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\SRM_86\\SRM_86\\Controllers\\EquitiesController.cs",
+              "RelativeDocumentMoniker": "SRM_86\\Controllers\\EquitiesController.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\SRM_86\\SRM_86\\Controllers\\EquitiesController.cs",
+              "RelativeToolTip": "SRM_86\\Controllers\\EquitiesController.cs",
+              "ViewState": "AgIAAEIAAAAgzczMzMwowEwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T11:45:45.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EquitiesOps.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\SRM_86\\SRM_86\\Repo\\EquitiesOps.cs",
+              "RelativeDocumentMoniker": "SRM_86\\Repo\\EquitiesOps.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\SRM_86\\SRM_86\\Repo\\EquitiesOps.cs",
+              "RelativeToolTip": "SRM_86\\Repo\\EquitiesOps.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T11:43:05.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExceptionLoggingService.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\SRM_86\\SRM_86\\Services\\ExceptionLoggingService.cs",
+              "RelativeDocumentMoniker": "SRM_86\\Services\\ExceptionLoggingService.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\SRM_86\\SRM_86\\Services\\ExceptionLoggingService.cs",
+              "RelativeToolTip": "SRM_86\\Services\\ExceptionLoggingService.cs",
+              "ViewState": "AgIAAAIAAACAMzMzM7MawA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T09:23:12.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\SRM_86\\SRM_86\\appsettings.json",
+              "RelativeDocumentMoniker": "SRM_86\\appsettings.json",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\SRM_86\\SRM_86\\appsettings.json",
+              "RelativeToolTip": "SRM_86\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-11T14:47:09.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\SRM_86\\SRM_86\\Program.cs",
+              "RelativeDocumentMoniker": "SRM_86\\Program.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\SRM_86\\SRM_86\\Program.cs",
+              "RelativeToolTip": "SRM_86\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T12:54:56.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Equity.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\SRM_86\\SRM_86\\Models\\Equity.cs",
+              "RelativeDocumentMoniker": "SRM_86\\Models\\Equity.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\SRM_86\\SRM_86\\Models\\Equity.cs",
+              "RelativeToolTip": "SRM_86\\Models\\Equity.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAuwIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T12:54:36.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuditLog.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\SRM_86\\SRM_86\\Models\\AuditLog.cs",
+              "RelativeDocumentMoniker": "SRM_86\\Models\\AuditLog.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\SRM_86\\SRM_86\\Models\\AuditLog.cs",
+              "RelativeToolTip": "SRM_86\\Models\\AuditLog.cs",
+              "ViewState": "AgIAAAEAAAComJmZmRkWwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T08:08:55.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BondsController.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\SRM_86\\SRM_86\\Controllers\\BondsController.cs",
+              "RelativeDocumentMoniker": "SRM_86\\Controllers\\BondsController.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\SRM_86\\SRM_86\\Controllers\\BondsController.cs",
+              "RelativeToolTip": "SRM_86\\Controllers\\BondsController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAABwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T10:44:47.379Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

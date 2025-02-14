@@ -1,0 +1,1107 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "SRM_86",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Bonds/BondInfo": {
+      "get": {
+        "tags": [
+          "Bonds"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Bonds/BondInfo/{id}": {
+      "get": {
+        "tags": [
+          "Bonds"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Bonds/BondName": {
+      "get": {
+        "tags": [
+          "Bonds"
+        ],
+        "parameters": [
+          {
+            "name": "name",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Bonds/Add": {
+      "post": {
+        "tags": [
+          "Bonds"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Bond"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Bond"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Bond"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Bond"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Bonds/Update/{id}": {
+      "put": {
+        "tags": [
+          "Bonds"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Bond"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Bond"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Bond"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Bond"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Bonds/Delete/{id}": {
+      "delete": {
+        "tags": [
+          "Bonds"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Bonds/{id}": {
+      "patch": {
+        "tags": [
+          "Bonds"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Operation"
+                }
+              }
+            },
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Operation"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Operation"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Operation"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Equities/EquityInfo": {
+      "get": {
+        "tags": [
+          "Equities"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Equity"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Equity"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Equity"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Equities/EquityInfo/{id}": {
+      "get": {
+        "tags": [
+          "Equities"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Equities/EquityName": {
+      "get": {
+        "tags": [
+          "Equities"
+        ],
+        "parameters": [
+          {
+            "name": "name",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Equities/Add": {
+      "post": {
+        "tags": [
+          "Equities"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Equity"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Equity"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Equity"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Equity"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Equities/Update/{id}": {
+      "put": {
+        "tags": [
+          "Equities"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Equity"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Equity"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Equity"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Equity"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Equities/Delete/{id}": {
+      "delete": {
+        "tags": [
+          "Equities"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Equities/{id}": {
+      "patch": {
+        "tags": [
+          "Equities"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Operation"
+                }
+              }
+            },
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Operation"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Operation"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Operation"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Bond": {
+        "type": "object",
+        "properties": {
+          "securityDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "securityName": {
+            "type": "string",
+            "nullable": true
+          },
+          "assetType": {
+            "type": "string",
+            "nullable": true
+          },
+          "investmentType": {
+            "type": "string",
+            "nullable": true
+          },
+          "tradingFactor": {
+            "type": "number",
+            "format": "double"
+          },
+          "pricingFactor": {
+            "type": "number",
+            "format": "double"
+          },
+          "isin": {
+            "type": "string",
+            "nullable": true
+          },
+          "bbgTicker": {
+            "type": "string",
+            "nullable": true
+          },
+          "bbgUniqueId": {
+            "type": "string",
+            "nullable": true
+          },
+          "cusip": {
+            "type": "string",
+            "nullable": true
+          },
+          "sedol": {
+            "type": "string",
+            "nullable": true
+          },
+          "firstCouponDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "cap": {
+            "type": "string",
+            "nullable": true
+          },
+          "floor": {
+            "type": "string",
+            "nullable": true
+          },
+          "couponFrequency": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "coupon": {
+            "type": "number",
+            "format": "double"
+          },
+          "couponType": {
+            "type": "string",
+            "nullable": true
+          },
+          "spread": {
+            "type": "string",
+            "nullable": true
+          },
+          "callableFlag": {
+            "type": "boolean"
+          },
+          "fixToFloatFlag": {
+            "type": "string",
+            "nullable": true
+          },
+          "putableFlag": {
+            "type": "string",
+            "nullable": true
+          },
+          "issueDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "lastResetDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "maturity": {
+            "type": "string",
+            "format": "date"
+          },
+          "callNotificationMaxDays": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "putNotificationMaxDays": {
+            "type": "string",
+            "nullable": true
+          },
+          "penultimateCouponDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "resetFrequency": {
+            "type": "string",
+            "nullable": true
+          },
+          "hasPosition": {
+            "type": "string",
+            "nullable": true
+          },
+          "macaulayDuration": {
+            "type": "number",
+            "format": "double"
+          },
+          "_30dVolatility": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "_90dVolatility": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "convexity": {
+            "type": "number",
+            "format": "double"
+          },
+          "_30dayAverageVolume": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "pfAssetClass": {
+            "type": "string",
+            "nullable": true
+          },
+          "pfCountry": {
+            "type": "string",
+            "nullable": true
+          },
+          "pfCreditRating": {
+            "type": "string",
+            "nullable": true
+          },
+          "pfCurrency": {
+            "type": "string",
+            "nullable": true
+          },
+          "pfInstrument": {
+            "type": "string",
+            "nullable": true
+          },
+          "pfLiquidityProfile": {
+            "type": "string",
+            "nullable": true
+          },
+          "pfMaturity": {
+            "type": "string",
+            "nullable": true
+          },
+          "pfNaicsCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "pfRegion": {
+            "type": "string",
+            "nullable": true
+          },
+          "pfSector": {
+            "type": "string",
+            "nullable": true
+          },
+          "pfSubAssetClass": {
+            "type": "string",
+            "nullable": true
+          },
+          "bloombergIndustryGroup": {
+            "type": "string",
+            "nullable": true
+          },
+          "bloombergIndustrySubGroup": {
+            "type": "string",
+            "nullable": true
+          },
+          "bloombergIndustrySector": {
+            "type": "string",
+            "nullable": true
+          },
+          "countryOfIssuance": {
+            "type": "string",
+            "nullable": true
+          },
+          "issueCurrency": {
+            "type": "string",
+            "nullable": true
+          },
+          "issuer": {
+            "type": "string",
+            "nullable": true
+          },
+          "riskCurrency": {
+            "type": "string",
+            "nullable": true
+          },
+          "putDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "putPrice": {
+            "type": "string",
+            "nullable": true
+          },
+          "askPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "highPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "lowPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "openPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "volume": {
+            "type": "number",
+            "format": "double"
+          },
+          "bidPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "lastPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "callDate": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "callPrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "securityId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Equity": {
+        "type": "object",
+        "properties": {
+          "securityName": {
+            "type": "string",
+            "nullable": true
+          },
+          "securityDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "hasPosition": {
+            "type": "string",
+            "nullable": true
+          },
+          "isActiveSecurity": {
+            "type": "string",
+            "nullable": true
+          },
+          "lotSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bbgUniqueName": {
+            "type": "string",
+            "nullable": true
+          },
+          "cusip": {
+            "type": "string",
+            "nullable": true
+          },
+          "isin": {
+            "type": "string",
+            "nullable": true
+          },
+          "sedol": {
+            "type": "string",
+            "nullable": true
+          },
+          "bloombergTicker": {
+            "type": "string",
+            "nullable": true
+          },
+          "bloombergUniqueId": {
+            "type": "string",
+            "nullable": true
+          },
+          "bbgGlobalId": {
+            "type": "string",
+            "nullable": true
+          },
+          "tickerAndExchange": {
+            "type": "string",
+            "nullable": true
+          },
+          "isAdrFlag": {
+            "type": "string",
+            "nullable": true
+          },
+          "adrUnderlyingTicker": {
+            "type": "string",
+            "nullable": true
+          },
+          "adrUnderlyingCurrency": {
+            "type": "string",
+            "nullable": true
+          },
+          "sharesPerAdr": {
+            "type": "string",
+            "nullable": true
+          },
+          "ipoDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "pricingCurrency": {
+            "type": "string",
+            "nullable": true
+          },
+          "settleDays": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalSharesOutstanding": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "votingRightsPerShare": {
+            "type": "number",
+            "format": "double"
+          },
+          "averageVolume20d": {
+            "type": "number",
+            "format": "double"
+          },
+          "beta": {
+            "type": "number",
+            "format": "double"
+          },
+          "shortInterest": {
+            "type": "number",
+            "format": "double"
+          },
+          "returnYtd": {
+            "type": "number",
+            "format": "double"
+          },
+          "volatility90d": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "pfAssetClass": {
+            "type": "string",
+            "nullable": true
+          },
+          "pfCountry": {
+            "type": "string",
+            "nullable": true
+          },
+          "pfCreditRating": {
+            "type": "string",
+            "nullable": true
+          },
+          "pfCurrency": {
+            "type": "string",
+            "nullable": true
+          },
+          "pfInstrument": {
+            "type": "string",
+            "nullable": true
+          },
+          "pfLiquidityProfile": {
+            "type": "string",
+            "nullable": true
+          },
+          "pfMaturity": {
+            "type": "string",
+            "nullable": true
+          },
+          "pfNaicsCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "pfRegion": {
+            "type": "string",
+            "nullable": true
+          },
+          "pfSector": {
+            "type": "string",
+            "nullable": true
+          },
+          "pfSubAssetClass": {
+            "type": "string",
+            "nullable": true
+          },
+          "countryOfIssuance": {
+            "type": "string",
+            "nullable": true
+          },
+          "exchange": {
+            "type": "string",
+            "nullable": true
+          },
+          "issuer": {
+            "type": "string",
+            "nullable": true
+          },
+          "issueCurrency": {
+            "type": "string",
+            "nullable": true
+          },
+          "tradingCurrency": {
+            "type": "string",
+            "nullable": true
+          },
+          "bbgIndustrySubGroup": {
+            "type": "string",
+            "nullable": true
+          },
+          "bloombergIndustryGroup": {
+            "type": "string",
+            "nullable": true
+          },
+          "bloombergSector": {
+            "type": "string",
+            "nullable": true
+          },
+          "countryOfIncorporation": {
+            "type": "string",
+            "nullable": true
+          },
+          "riskCurrency": {
+            "type": "string",
+            "nullable": true
+          },
+          "openPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "closePrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "volume": {
+            "type": "number",
+            "format": "double"
+          },
+          "lastPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "askPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "bidPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "peRatio": {
+            "type": "number",
+            "format": "double"
+          },
+          "dividendDeclaredDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "dividendExDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "dividendRecordDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "dividendPayDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "dividendAmount": {
+            "type": "number",
+            "format": "double"
+          },
+          "frequency": {
+            "type": "string",
+            "nullable": true
+          },
+          "dividendType": {
+            "type": "string",
+            "nullable": true
+          },
+          "securityId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Operation": {
+        "type": "object",
+        "properties": {
+          "operationType": {
+            "$ref": "#/components/schemas/OperationType"
+          },
+          "path": {
+            "type": "string",
+            "nullable": true
+          },
+          "op": {
+            "type": "string",
+            "nullable": true
+          },
+          "from": {
+            "type": "string",
+            "nullable": true
+          },
+          "value": {
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OperationType": {
+        "enum": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "vOqVA73mMXb068POx2+Jj6L6GL+GS/TFEpRhMgOyosE=",
+  "Source": "ConsoleToWebAPIApp",
+  "BasePath": "_content/ConsoleToWebAPIApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,14 @@
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\Async_Parallel_ConsoleApp\bin\Debug\net8.0\Async_Parallel_ConsoleApp.exe
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\Async_Parallel_ConsoleApp\bin\Debug\net8.0\Async_Parallel_ConsoleApp.deps.json
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\Async_Parallel_ConsoleApp\bin\Debug\net8.0\Async_Parallel_ConsoleApp.runtimeconfig.json
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\Async_Parallel_ConsoleApp\bin\Debug\net8.0\Async_Parallel_ConsoleApp.dll
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\Async_Parallel_ConsoleApp\bin\Debug\net8.0\Async_Parallel_ConsoleApp.pdb
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\Async_Parallel_ConsoleApp\obj\Debug\net8.0\Async_Parallel_ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\Async_Parallel_ConsoleApp\obj\Debug\net8.0\Async_Parallel_ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\Async_Parallel_ConsoleApp\obj\Debug\net8.0\Async_Parallel_ConsoleApp.AssemblyInfo.cs
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\Async_Parallel_ConsoleApp\obj\Debug\net8.0\Async_Parallel_ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\Async_Parallel_ConsoleApp\obj\Debug\net8.0\Async_Parallel_ConsoleApp.dll
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\Async_Parallel_ConsoleApp\obj\Debug\net8.0\refint\Async_Parallel_ConsoleApp.dll
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\Async_Parallel_ConsoleApp\obj\Debug\net8.0\Async_Parallel_ConsoleApp.pdb
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\Async_Parallel_ConsoleApp\obj\Debug\net8.0\Async_Parallel_ConsoleApp.genruntimeconfig.cache
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\Async_Parallel_ConsoleApp\obj\Debug\net8.0\ref\Async_Parallel_ConsoleApp.dll

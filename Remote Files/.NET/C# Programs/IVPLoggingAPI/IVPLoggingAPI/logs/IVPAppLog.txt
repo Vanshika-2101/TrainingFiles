@@ -1,0 +1,152 @@
+2025-01-30 16:35:41.469 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-01-30 16:35:41.597 +05:30 [INF] Now listening on: https://localhost:7156
+2025-01-30 16:35:41.599 +05:30 [INF] Now listening on: http://localhost:5098
+2025-01-30 16:35:41.627 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-30 16:35:41.629 +05:30 [INF] Hosting environment: Development
+2025-01-30 16:35:41.630 +05:30 [INF] Content root path: C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLoggingAPI\IVPLoggingAPI
+2025-01-30 16:35:42.296 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/swagger - null null
+2025-01-30 16:35:42.418 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/swagger - 301 0 null 126.5613ms
+2025-01-30 16:35:42.424 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/swagger/index.html - null null
+2025-01-30 16:35:42.463 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/swagger/index.html - 200 null text/html;charset=utf-8 39.1144ms
+2025-01-30 16:35:42.466 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/swagger/swagger-ui-standalone-preset.js - null null
+2025-01-30 16:35:42.467 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-30 16:35:42.466 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/swagger/swagger-ui-bundle.js - null null
+2025-01-30 16:35:42.466 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/swagger/swagger-ui.css - null null
+2025-01-30 16:35:42.476 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/_vs/browserLink - null null
+2025-01-30 16:35:42.488 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 21.0664ms
+2025-01-30 16:35:42.515 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-01-30 16:35:42.515 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-01-30 16:35:42.522 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 56.0131ms
+2025-01-30 16:35:42.522 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/swagger/swagger-ui.css - 200 152034 text/css 56.0721ms
+2025-01-30 16:35:42.523 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-01-30 16:35:42.531 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 64.6558ms
+2025-01-30 16:35:42.541 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/_vs/browserLink - 200 null text/javascript; charset=UTF-8 65.5196ms
+2025-01-30 16:35:42.622 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - null null
+2025-01-30 16:35:42.628 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.9937ms
+2025-01-30 16:35:56.974 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/api/Test/Divide - null null
+2025-01-30 16:35:56.987 +05:30 [INF] Executing endpoint 'IVPLoggingAPI.Controllers.TestController.Divide (IVPLoggingAPI)'
+2025-01-30 16:35:57.005 +05:30 [INF] Route matched with {action = "Divide", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Divide() on controller IVPLoggingAPI.Controllers.TestController (IVPLoggingAPI).
+2025-01-30 16:35:57.010 +05:30 [INF] Logging Started for TestController
+2025-01-30 16:35:57.017 +05:30 [INF] Divide method called.1/30/2025 4:35:57 PM
+2025-01-30 16:35:57.018 +05:30 [INF] Value of x = 10 and y = 0
+2025-01-30 16:35:57.040 +05:30 [ERR] Exception occured.1/30/2025 4:35:57 PM
+2025-01-30 16:35:57.043 +05:30 [FTL] Attempted to divide by zero.
+2025-01-30 16:35:57.045 +05:30 [INF] Method execution over.1/30/2025 4:35:57 PM
+2025-01-30 16:35:57.051 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-01-30 16:35:57.068 +05:30 [INF] Executed action IVPLoggingAPI.Controllers.TestController.Divide (IVPLoggingAPI) in 56.2599ms
+2025-01-30 16:35:57.070 +05:30 [INF] Executed endpoint 'IVPLoggingAPI.Controllers.TestController.Divide (IVPLoggingAPI)'
+2025-01-30 16:35:57.072 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/api/Test/Divide - 400 null application/problem+json; charset=utf-8 98.0357ms
+2025-01-30 16:39:16.966 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-01-30 16:39:17.123 +05:30 [INF] Now listening on: https://localhost:7156
+2025-01-30 16:39:17.125 +05:30 [INF] Now listening on: http://localhost:5098
+2025-01-30 16:39:17.155 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-30 16:39:17.157 +05:30 [INF] Hosting environment: Development
+2025-01-30 16:39:17.159 +05:30 [INF] Content root path: C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLoggingAPI\IVPLoggingAPI
+2025-01-30 16:39:17.938 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/swagger - null null
+2025-01-30 16:39:18.071 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/swagger - 301 0 null 135.6908ms
+2025-01-30 16:39:18.074 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/swagger/index.html - null null
+2025-01-30 16:39:18.121 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/swagger/index.html - 200 null text/html;charset=utf-8 47.3084ms
+2025-01-30 16:39:18.133 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-30 16:39:18.131 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/swagger/swagger-ui-bundle.js - null null
+2025-01-30 16:39:18.131 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/swagger/swagger-ui-standalone-preset.js - null null
+2025-01-30 16:39:18.126 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/swagger/swagger-ui.css - null null
+2025-01-30 16:39:18.139 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/_vs/browserLink - null null
+2025-01-30 16:39:18.191 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-01-30 16:39:18.193 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-01-30 16:39:18.191 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-01-30 16:39:18.208 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 76.9811ms
+2025-01-30 16:39:18.208 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/swagger/swagger-ui.css - 200 152034 text/css 82.4486ms
+2025-01-30 16:39:18.170 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 36.9634ms
+2025-01-30 16:39:18.210 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 78.9998ms
+2025-01-30 16:39:18.227 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/_vs/browserLink - 200 null text/javascript; charset=UTF-8 88.1266ms
+2025-01-30 16:39:18.318 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - null null
+2025-01-30 16:39:18.332 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.0129ms
+2025-01-30 16:39:38.933 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-01-30 16:39:39.037 +05:30 [INF] Now listening on: https://localhost:7156
+2025-01-30 16:39:39.039 +05:30 [INF] Now listening on: http://localhost:5098
+2025-01-30 16:39:39.069 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-30 16:39:39.071 +05:30 [INF] Hosting environment: Development
+2025-01-30 16:39:39.071 +05:30 [INF] Content root path: C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLoggingAPI\IVPLoggingAPI
+2025-01-30 16:39:39.914 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/swagger - null null
+2025-01-30 16:39:40.038 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/swagger - 301 0 null 129.961ms
+2025-01-30 16:39:40.042 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/swagger/index.html - null null
+2025-01-30 16:39:40.095 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/swagger/index.html - 200 null text/html;charset=utf-8 53.3229ms
+2025-01-30 16:39:40.099 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/swagger/swagger-ui.css - null null
+2025-01-30 16:39:40.099 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/swagger/swagger-ui-standalone-preset.js - null null
+2025-01-30 16:39:40.099 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/swagger/swagger-ui-bundle.js - null null
+2025-01-30 16:39:40.099 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-30 16:39:40.113 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/_vs/browserLink - null null
+2025-01-30 16:39:40.135 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 36.0254ms
+2025-01-30 16:39:40.160 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-01-30 16:39:40.160 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-01-30 16:39:40.169 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 70.0023ms
+2025-01-30 16:39:40.169 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/swagger/swagger-ui.css - 200 152034 text/css 70.1027ms
+2025-01-30 16:39:40.171 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-01-30 16:39:40.179 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 79.9249ms
+2025-01-30 16:39:40.193 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/_vs/browserLink - 200 null text/javascript; charset=UTF-8 80.2439ms
+2025-01-30 16:39:40.280 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - null null
+2025-01-30 16:39:40.286 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.1016ms
+2025-01-30 16:39:54.796 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/api/Test/Divide - null null
+2025-01-30 16:39:54.812 +05:30 [INF] Executing endpoint 'IVPLoggingAPI.Controllers.TestController.Divide (IVPLoggingAPI)'
+2025-01-30 16:39:54.825 +05:30 [INF] Route matched with {action = "Divide", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Divide() on controller IVPLoggingAPI.Controllers.TestController (IVPLoggingAPI).
+2025-01-30 16:39:54.830 +05:30 [INF] Logging Started for TestController
+2025-01-30 16:39:54.837 +05:30 [INF] Divide method called.1/30/2025 4:39:54 PM
+2025-01-30 16:39:54.838 +05:30 [INF] Value of x = 10 and y = 0
+2025-01-30 16:39:54.872 +05:30 [ERR] Exception occured.1/30/2025 4:39:54 PM
+2025-01-30 16:39:54.874 +05:30 [FTL] Attempted to divide by zero.
+2025-01-30 16:39:54.876 +05:30 [INF] Method execution over.1/30/2025 4:39:54 PM
+2025-01-30 16:39:54.880 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-01-30 16:39:54.898 +05:30 [INF] Executed action IVPLoggingAPI.Controllers.TestController.Divide (IVPLoggingAPI) in 66.6968ms
+2025-01-30 16:39:54.901 +05:30 [INF] Executed endpoint 'IVPLoggingAPI.Controllers.TestController.Divide (IVPLoggingAPI)'
+2025-01-30 16:39:54.903 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/api/Test/Divide - 400 null application/problem+json; charset=utf-8 107.2429ms
+2025-01-30 16:41:01.143 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-01-30 16:41:01.281 +05:30 [INF] Now listening on: https://localhost:7156
+2025-01-30 16:41:01.283 +05:30 [INF] Now listening on: http://localhost:5098
+2025-01-30 16:41:01.312 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-30 16:41:01.314 +05:30 [INF] Hosting environment: Development
+2025-01-30 16:41:01.315 +05:30 [INF] Content root path: C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLoggingAPI\IVPLoggingAPI
+2025-01-30 16:41:02.071 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/swagger - null null
+2025-01-30 16:41:02.230 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/swagger - 301 0 null 163.1766ms
+2025-01-30 16:41:02.234 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/swagger/index.html - null null
+2025-01-30 16:41:02.284 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/swagger/index.html - 200 null text/html;charset=utf-8 50.0918ms
+2025-01-30 16:41:02.289 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/swagger/swagger-ui.css - null null
+2025-01-30 16:41:02.289 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/swagger/swagger-ui-bundle.js - null null
+2025-01-30 16:41:02.290 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-30 16:41:02.289 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/swagger/swagger-ui-standalone-preset.js - null null
+2025-01-30 16:41:02.300 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/_vs/browserLink - null null
+2025-01-30 16:41:02.317 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 27.7655ms
+2025-01-30 16:41:02.349 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-01-30 16:41:02.353 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-01-30 16:41:02.361 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/swagger/swagger-ui.css - 200 152034 text/css 72.4023ms
+2025-01-30 16:41:02.363 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 74.4776ms
+2025-01-30 16:41:02.362 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-01-30 16:41:02.388 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/_vs/browserLink - 200 null text/javascript; charset=UTF-8 89.0085ms
+2025-01-30 16:41:02.391 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 102.1208ms
+2025-01-30 16:41:02.500 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - null null
+2025-01-30 16:41:02.508 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.4728ms
+2025-01-30 16:41:06.905 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/api/Test/Divide - null null
+2025-01-30 16:41:06.913 +05:30 [INF] Executing endpoint 'IVPLoggingAPI.Controllers.TestController.Divide (IVPLoggingAPI)'
+2025-01-30 16:41:06.922 +05:30 [INF] Route matched with {action = "Divide", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Divide() on controller IVPLoggingAPI.Controllers.TestController (IVPLoggingAPI).
+2025-01-30 16:41:06.926 +05:30 [INF] Logging Started for TestController
+2025-01-30 16:41:06.932 +05:30 [INF] Divide method called.1/30/2025 4:41:06 PM
+2025-01-30 16:41:06.933 +05:30 [INF] Value of x = 10 and y = 0
+2025-01-30 16:41:06.956 +05:30 [ERR] Exception occured.1/30/2025 4:41:06 PM
+2025-01-30 16:41:06.958 +05:30 [FTL] Attempted to divide by zero.
+2025-01-30 16:41:06.959 +05:30 [INF] Method execution over.1/30/2025 4:41:06 PM
+2025-01-30 16:41:06.964 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-01-30 16:41:06.976 +05:30 [INF] Executed action IVPLoggingAPI.Controllers.TestController.Divide (IVPLoggingAPI) in 48.5267ms
+2025-01-30 16:41:06.977 +05:30 [INF] Executed endpoint 'IVPLoggingAPI.Controllers.TestController.Divide (IVPLoggingAPI)'
+2025-01-30 16:41:06.979 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/api/Test/Divide - 400 null application/problem+json; charset=utf-8 74.2385ms
+2025-01-30 16:41:39.475 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7156/api/Test/Divide - null null
+2025-01-30 16:41:39.484 +05:30 [INF] Executing endpoint 'IVPLoggingAPI.Controllers.TestController.Divide (IVPLoggingAPI)'
+2025-01-30 16:41:39.487 +05:30 [INF] Route matched with {action = "Divide", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Divide() on controller IVPLoggingAPI.Controllers.TestController (IVPLoggingAPI).
+2025-01-30 16:41:39.491 +05:30 [INF] Logging Started for TestController
+2025-01-30 16:41:39.493 +05:30 [INF] Divide method called.1/30/2025 4:41:39 PM
+2025-01-30 16:41:39.494 +05:30 [INF] Value of x = 10 and y = 0
+2025-01-30 16:41:39.507 +05:30 [ERR] Exception occured.1/30/2025 4:41:39 PM
+2025-01-30 16:41:39.509 +05:30 [FTL] Attempted to divide by zero.
+2025-01-30 16:41:39.511 +05:30 [INF] Method execution over.1/30/2025 4:41:39 PM
+2025-01-30 16:41:39.513 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-01-30 16:41:39.515 +05:30 [INF] Executed action IVPLoggingAPI.Controllers.TestController.Divide (IVPLoggingAPI) in 23.986ms
+2025-01-30 16:41:39.517 +05:30 [INF] Executed endpoint 'IVPLoggingAPI.Controllers.TestController.Divide (IVPLoggingAPI)'
+2025-01-30 16:41:39.519 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7156/api/Test/Divide - 400 null application/problem+json; charset=utf-8 44.6109ms

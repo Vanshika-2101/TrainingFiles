@@ -1,0 +1,11 @@
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\EFCoreAssignment\EFCoreAssignment_Models\obj\Debug\net8.0\EFCoreAssignment_Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\EFCoreAssignment\EFCoreAssignment_Models\obj\Debug\net8.0\EFCoreAssignment_Models.AssemblyInfoInputs.cache
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\EFCoreAssignment\EFCoreAssignment_Models\obj\Debug\net8.0\EFCoreAssignment_Models.AssemblyInfo.cs
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\EFCoreAssignment\EFCoreAssignment_Models\obj\Debug\net8.0\EFCoreAssignment_Models.csproj.CoreCompileInputs.cache
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\EFCoreAssignment\EFCoreAssignment_Models\bin\Debug\net8.0\EFCoreAssignment_Models.deps.json
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\EFCoreAssignment\EFCoreAssignment_Models\bin\Debug\net8.0\EFCoreAssignment_Models.dll
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\EFCoreAssignment\EFCoreAssignment_Models\bin\Debug\net8.0\EFCoreAssignment_Models.pdb
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\EFCoreAssignment\EFCoreAssignment_Models\obj\Debug\net8.0\EFCoreAssignment_Models.dll
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\EFCoreAssignment\EFCoreAssignment_Models\obj\Debug\net8.0\refint\EFCoreAssignment_Models.dll
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\EFCoreAssignment\EFCoreAssignment_Models\obj\Debug\net8.0\EFCoreAssignment_Models.pdb
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\EFCoreAssignment\EFCoreAssignment_Models\obj\Debug\net8.0\ref\EFCoreAssignment_Models.dll

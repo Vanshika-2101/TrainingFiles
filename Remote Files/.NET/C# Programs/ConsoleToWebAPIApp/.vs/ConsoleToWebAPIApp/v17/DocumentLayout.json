@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\ConsoleToWebAPIApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7EA34619-2B88-4BD3-93A5-A358A2DFB13C}|ConsoleToWebAPIApp\\ConsoleToWebAPIApp.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\consoletowebapiapp\\consoletowebapiapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EA34619-2B88-4BD3-93A5-A358A2DFB13C}|ConsoleToWebAPIApp\\ConsoleToWebAPIApp.csproj|solutionrelative:consoletowebapiapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EA34619-2B88-4BD3-93A5-A358A2DFB13C}|ConsoleToWebAPIApp\\ConsoleToWebAPIApp.csproj|c:\\users\\vaaggarwal\\desktop\\.net\\c# programs\\consoletowebapiapp\\consoletowebapiapp\\consoletowebapiapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7EA34619-2B88-4BD3-93A5-A358A2DFB13C}|ConsoleToWebAPIApp\\ConsoleToWebAPIApp.csproj|solutionrelative:consoletowebapiapp\\consoletowebapiapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConsoleToWebAPIApp",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\ConsoleToWebAPIApp\\ConsoleToWebAPIApp\\ConsoleToWebAPIApp.csproj",
+              "RelativeDocumentMoniker": "ConsoleToWebAPIApp\\ConsoleToWebAPIApp.csproj",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\ConsoleToWebAPIApp\\ConsoleToWebAPIApp\\ConsoleToWebAPIApp.csproj",
+              "RelativeToolTip": "ConsoleToWebAPIApp\\ConsoleToWebAPIApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-13T18:40:39.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\ConsoleToWebAPIApp\\ConsoleToWebAPIApp\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleToWebAPIApp\\Program.cs",
+              "ToolTip": "C:\\Users\\vaaggarwal\\Desktop\\.NET\\C# Programs\\ConsoleToWebAPIApp\\ConsoleToWebAPIApp\\Program.cs",
+              "RelativeToolTip": "ConsoleToWebAPIApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T06:34:18.713Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

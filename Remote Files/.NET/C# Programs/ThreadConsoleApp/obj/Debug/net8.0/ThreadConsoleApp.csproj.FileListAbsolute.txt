@@ -1,0 +1,14 @@
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\ThreadConsoleApp\bin\Debug\net8.0\ThreadConsoleApp.exe
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\ThreadConsoleApp\bin\Debug\net8.0\ThreadConsoleApp.deps.json
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\ThreadConsoleApp\bin\Debug\net8.0\ThreadConsoleApp.runtimeconfig.json
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\ThreadConsoleApp\bin\Debug\net8.0\ThreadConsoleApp.dll
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\ThreadConsoleApp\bin\Debug\net8.0\ThreadConsoleApp.pdb
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\ThreadConsoleApp\obj\Debug\net8.0\ThreadConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\ThreadConsoleApp\obj\Debug\net8.0\ThreadConsoleApp.AssemblyInfoInputs.cache
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\ThreadConsoleApp\obj\Debug\net8.0\ThreadConsoleApp.AssemblyInfo.cs
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\ThreadConsoleApp\obj\Debug\net8.0\ThreadConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\ThreadConsoleApp\obj\Debug\net8.0\ThreadConsoleApp.dll
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\ThreadConsoleApp\obj\Debug\net8.0\refint\ThreadConsoleApp.dll
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\ThreadConsoleApp\obj\Debug\net8.0\ThreadConsoleApp.pdb
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\ThreadConsoleApp\obj\Debug\net8.0\ThreadConsoleApp.genruntimeconfig.cache
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\ThreadConsoleApp\obj\Debug\net8.0\ref\ThreadConsoleApp.dll

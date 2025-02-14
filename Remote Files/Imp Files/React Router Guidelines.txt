@@ -1,0 +1,625 @@
+React Router
+1. Fully featured client and server side routing library for React
+2. Helps create and navigate between different URL's that make up web application
+3. Provides unique URLs for different components in the app and makes the UI easily shareable with other users
+
+-- Points to cover
+1. Configuring routes
+2. Navigating on button click
+3. Navigating programmatically
+4. Dynamic routes
+5. Nested routes
+6. Route parameters
+7. Lazy loading & Suspense
+
+
+-- Installation and setup
+1. Create a new react app --> npx create-react-app my-router-app
+2. Change the directory to --> cd .\my-router-app\
+3. Install router package --> npm install react-router-dom@6
+
+-- Configuring routes with react router
+1. Wrap the root component App using browser router in index.js file
+
+import {BrowserRouter} from 'react-router-dom';
+
+root.render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
+);
+
+2. Create components in the application that needs to be routed.
+
+a. Create folder components in src.
+b. Add Home.js and About.js components in the folder.
+c. Home.js :
+
+import React from 'react'
+
+const Home = () => {
+  return (
+    <div>
+      Home Page
+    </div>
+  )
+}
+
+export default Home
+
+d. About.js
+
+import React from 'react'
+
+const About = () => {
+  return (
+    <div>
+      About Page
+    </div>
+  )
+}
+
+export default About
+
+e. Configuring routes using Routes & Route components in App.js file:
+
+import {Routes, Route} from 'react-router-dom';
+import About from './components/About';
+import Home from './components/Home';
+
+function App() {
+  return (
+    <div>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/about" element={<About />}></Route>
+        </Routes>
+    </div>
+  );
+}
+
+export default App;
+
+f. Test the application.
+	http://localhost:3000 --> Home Page
+	http://localhost:3000/about --> About Page
+
+-- Links.
+
+1. Create a new Navbar.js file under components folder:
+
+import React from 'react'
+import { Link } from 'react-router-dom'
+
+const Navbar = () => {
+  return (
+    <nav>
+      <Link to="/">Home</Link>
+      <Link to="/about">About</Link>
+    </nav>
+  )
+}
+
+export default Navbar 
+
+2. Import the Navbar component in App component.
+
+import Navbar from './components/Navbar';
+
+<Navbar />
+
+3. Add below code in index.css file for better look and feel
+
+nav{
+    background-color: aliceblue;
+    padding: 16px, 32px;
+}
+
+nav a {
+    margin-right: 16px;
+}
+
+
+-- Active Links
+
+The Link component is used to navigate the different routes on the site. But NavLink is used to add the style attributes to the active routes.
+
+1. Go to Navbar.js file and replace Link with Navlink
+
+import React from 'react'
+import { NavLink } from 'react-router-dom'
+
+const Navbar = () => {
+  return (
+    <nav>
+      <NavLink to="/">Home</NavLink>
+      <NavLink to="/about">About</NavLink>
+    </nav>
+  )
+}
+
+export default Navbar
+
+Test the application and Inspect ---> Elements --> You will see class = active for the selected link.
+
+2. Lets add some CSS for the same.
+
+nav a.active {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+Test the application... you will see active link is now styled.
+
+3. We can also set the same using style prop in the Navbar.js file.
+
+Add the below code: Add style property and create navLinkStyle Function which returns the styling to the link.
+
+import React from 'react'
+import { NavLink } from 'react-router-dom'
+
+const Navbar = () => {
+
+    const navLinkStyle = ({isActive}) => {
+        return{
+            fontWeight: isActive ? "bold" : "normal",
+            textDecoration: isActive ? "none" : "underline"
+        }
+    }
+
+  return (
+    <nav>
+      <NavLink style={navLinkStyle} to="/">Home</NavLink>
+      <NavLink style={navLinkStyle} to="/about">About</NavLink>
+    </nav>
+  )
+}
+
+export default Navbar
+
+
+-- Navigating Programatically
+
+React router provides useNavigate hook to navigate programatically.
+
+1. Create a new file OrderSummary.js in components folder.
+
+import React from 'react'
+
+const OrderSummary = () => {
+  return (
+    <>
+    <div>
+      Order Confirmed...!
+    </div>
+    </>
+  )
+}
+
+export default OrderSummary
+
+2. Add new route in App.js file under Routes tag.
+
+import OrderSummary from './components/OrderSummary';
+
+<Route path="order-summary" element={<OrderSummary />}></Route>
+
+3. Test the application --> http://localhost:3000/order-summary
+
+4. Lets navigate to ordersummary page on the click of a button. Add below code in the Home.js file.
+
+import React from 'react'
+import { useNavigate } from 'react-router-dom'
+
+const Home = () => {
+
+    const navigate = useNavigate()
+
+  return (
+    <>
+    <div> Home Page </div>
+    <div>
+      <button onClick={() => navigate('order-summary')}>Place Order</button>
+    </div>
+    </>
+  )
+}
+
+export default Home
+
+Test the application.
+
+5. Lets add back button to the OrderSummary.js file to navigate back
+
+import React from 'react'
+import { useNavigate } from 'react-router-dom'
+
+const OrderSummary = () => {
+
+    const navigate = useNavigate();
+
+  return (
+    <>
+    <div>
+      Order Confirmed...!
+    </div>
+    <div>
+        <button onClick={() => navigate(-1)}> Back to Home Page </button>
+    </div>
+    </>
+  )
+}
+
+export default OrderSummary
+
+Test the application.
+
+6. If we want to replace history then we need to add optional second parameter in Home.js file as shown below:
+
+    <div>
+      <button onClick={() => navigate('order-summary', {replace: true})}>Place Order</button>
+    </div>
+
+Test the application. This time on click of Go Back button..it will not navigate back to Home Page
+
+
+-- Configuring No Match Route in the React 
+
+It is used to handle incorrect route given by user for example http://localhost:3000/data
+
+1. Create a new file NoMatch.js in component folder.
+
+import React from 'react'
+
+const NoMatch = () => {
+  return (
+    <div>
+      Page Not Found
+    </div>
+  )
+}
+
+export default NoMatch
+
+2. Add new route in App.js under Routes tag
+
+ <Route path="*" element={<NoMatch />}></Route>
+
+Test the application - http://localhost:3000/data
+
+
+-- Nested Routes
+
+1. Create a new file Products.js in component folder
+
+import React from 'react'
+
+const Products = () => {
+  return (
+    <div>
+      <input type='search' placeholder='Search Products'></input>
+    </div>
+  )
+}
+
+export default Products
+
+2. Add new route in the App.js file under Routes tag:
+
+import Products from './components/Products';
+
+<Route path="products" element={<Products />}></Route>
+
+3. In Navbar.js add third link for Products:
+
+<NavLink style={navLinkStyle} to="/products">Products</NavLink>
+
+Test the application.
+
+4. Add another set of navigation link in Product.js file:
+
+import React from 'react'
+import { Link } from 'react-router-dom'
+
+const Products = () => {
+  return (
+    <>
+    <div>
+      <input type='search' placeholder='Search Products'></input>
+    </div>
+    <nav>
+        <Link to="featured">Featured</Link>
+        <Link to="new">New</Link>
+    </nav>
+    </>
+  )
+}
+
+export default Products
+
+5. Create two new files in Components folder --> FeaturedProducts.js & NewProducts.js
+
+* FeaturedProducts.js
+
+import React from 'react'
+
+const FeaturedProducts = () => {
+  return (
+    <div>
+      List of Featured Products....
+    </div>
+  )
+}
+
+export default FeaturedProducts
+
+
+* NewProducts.js
+
+import React from 'react'
+
+const NewProducts = () => {
+  return (
+    <div>
+      List of New Products...
+    </div>
+  )
+}
+
+export default NewProducts
+
+6. Add child route in App.js in Product route as shown below:
+
+          <Route path="products" element={<Products />}>
+            <Route path='featured' element={< FeaturedProducts />}></Route>
+            <Route path='new' element= {<NewProducts />}></Route>
+          </Route>
+
+7. Add outlet component in the Product.js which Renders the child route elements below nav tag.
+
+<Outlet></Outlet>
+
+Test the application.
+
+
+-- Index Route
+
+Now when we click on Products, it only shows two links Featured & New. However we want to display Featured.js file compoenent details by default.
+
+This can be achieved using Index Route.
+
+Add below code as in App.js as shown below:
+
+	  <Route path="products" element={<Products />}>
+            <Route index element={< FeaturedProducts />}></Route>
+            <Route path='featured' element={< FeaturedProducts />}></Route>
+            <Route path='new' element= {<NewProducts />}></Route>
+          </Route>
+
+Test the application.
+
+
+-- Dynamic Routes
+1. Create a new file in components folder Users.js
+
+import React from 'react'
+
+const Users = () => {
+  return (
+    <div>
+      <h2>User 1</h2>
+      <h2>User 2</h2>
+      <h2>User 3</h2>
+    </div>
+  )
+}
+
+export default Users
+
+2. Add routing for the same in App.js
+
+import Users from './components/Users';
+
+<Route path="users" element={<Users />}></Route>
+
+Test the component --> http://localhost:3000/users
+
+3. Create a new file in Components folder UserDetails.js
+
+import React from 'react'
+
+const UserDetails = () => {
+  return (
+    <div>
+      Details about user
+    </div>
+  )
+}
+
+export default UserDetails
+
+
+4. Add Route for users/1, users/2, users/3 pointing to UserDetails.js 
+
+       <Route path="users/1" element={<UserDetails />}></Route>
+       <Route path="users/2" element={<UserDetails />}></Route>
+       <Route path="users/3" element={<UserDetails />}></Route>
+
+Test the application: http://localhost:3000/users/1
+
+5. This is not a correct approach .. for 100 users we need to create 100 routes...
+
+user id 1, 2, 3 should be dynamic value and this can be achieved by implementing URL pattern.
+
+Add route pattern as mentioned below and remove other routes for 1, 2, 3:
+
+<Route path="users/:userId" element={<UserDetails />}></Route>
+
+Test the application: http://localhost:3000/users/1
+
+This also works for string value: http://localhost:3000/users/admin
+
+6. Lets add Admin.js file in components folder
+
+import React from 'react'
+
+const Admin = () => {
+  return (
+    <div>
+      Admin User .....
+    </div>
+  )
+}
+
+export default Admin
+
+
+7. Add below route in App.js for Admin file
+
+<Route path="users/admin" element={<Admin />}></Route>
+
+Test the application
+
+
+-- Params
+Currently for all users with userId 1, 2, 3 it is pointing to UserDetails.js file.
+
+We want to display details for specific id in real scenario. We need to read the data passed in URL and display the value for each userId passed in URL.
+
+1. We need to use hook --> useParam for the same. Add the below code in the UserDetails.js file
+
+import React from 'react'
+import { useParams } from 'react-router-dom'
+
+const UserDetails = () => {
+
+    const params = useParams() --> returns key value pair
+    const userId = params.userId --> This should be same as value passed in the route
+
+    //const {userId} = useParams()
+
+  return (
+    <div>
+      Details about user {userId}
+    </div>
+  )
+}
+
+export default UserDetails
+
+Test the application: http://localhost:3000/users/1
+http://localhost:3000/users/2
+http://localhost:3000/users/3
+
+-- Search Params - using query string
+
+1. In the users component add two buttons:
+
+<button>Active Users</button>
+<button>Reset Users</button>
+
+2. On click of these buttons we need to add or remove search param.
+
+We will use hook --> useSearchParams for the same.
+
+import React from 'react'
+import { useSearchParams } from 'react-router-dom';
+
+const Users = () => {
+
+    const [searchParams, setSearchParams] = useSearchParams()
+
+  return (
+    <div>
+      <h2>User 1</h2>
+      <h2>User 2</h2>
+      <h2>User 3</h2>
+      <button onClick={() => setSearchParams({filter: 'active'})}>Active Users</button>
+      <button onClick={() => setSearchParams()}>Reset Users</button>
+    </div>
+  )
+}
+
+export default Users
+
+Test the application by clicking on the button.
+
+3. We need to display appropriate text on the click of button and as per the filter defined.
+
+We declare showActiveUsers variable and get data as per the filter value.
+
+const showActiveUsers = searchParams.get('filter') === 'active'
+
+ {
+        showActiveUsers ? (<h2>Showing Active Users</h2>) : (<h2>Showing All Users</h2>)
+ }
+
+Test the application
+
+
+-- Lazy Loading - How to lazy load routes with react router
+
+1. Lazy loading is a technique where components not required on the home page can be split into separate code bundles and downloaded only user navigates to that page. --> Incrementally downloading the application.
+
+In our example we will lazy load the about page.
+
+We need to understand dynamic loading & suspense.
+
+Make the About component bulk --> lipsum.com --> 20 paragraphs and paste it in the About.js file.
+
+Observe the bundle size when entire application is loaded. --> Network --> Bundle.js
+427kb & 75ms
+
+2. Comment import for About component. Use dynamic import syntax for that we need default export of the component.
+
+Ensure About.js file has export default About at the end.
+
+Go to App.js and add the below lazy component code as shown below:
+
+const LazyAbout = React.lazy(() => import('./components/About'))
+
+3. Add the lazy details in the Route for About component.
+
+<Route path="about" element={<LazyAbout />}></Route>
+
+Test the application
+
+Observe the bundle size when entire application is loaded. --> Network --> Bundle.js
+423kb & 71ms
+
+4. Add suspense code to wrap lazy loading.
+
+	  <Route path="about" element={
+              <React.Suspense fallback="Loading...... "> 
+                <LazyAbout /> 
+              </React.Suspense>}>
+          </Route>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+

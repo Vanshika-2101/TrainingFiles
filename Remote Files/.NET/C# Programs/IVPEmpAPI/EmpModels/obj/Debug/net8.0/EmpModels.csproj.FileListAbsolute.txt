@@ -1,0 +1,13 @@
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpModels\bin\Debug\net8.0\EmpModels.deps.json
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpModels\bin\Debug\net8.0\EmpModels.dll
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpModels\bin\Debug\net8.0\EmpModels.pdb
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpModels\obj\Debug\net8.0\EmpModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpModels\obj\Debug\net8.0\EmpModels.AssemblyInfoInputs.cache
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpModels\obj\Debug\net8.0\EmpModels.AssemblyInfo.cs
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpModels\obj\Debug\net8.0\EmpModels.csproj.CoreCompileInputs.cache
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpModels\obj\Debug\net8.0\EmpModels.dll
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpModels\obj\Debug\net8.0\refint\EmpModels.dll
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpModels\obj\Debug\net8.0\EmpModels.pdb
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpModels\obj\Debug\net8.0\ref\EmpModels.dll
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpModels\bin\Debug\net8.0\EmpModels.runtimeconfig.json
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPEmpAPI\EmpModels\obj\Debug\net8.0\EmpModels.genruntimeconfig.cache

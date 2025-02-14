@@ -1,0 +1,11 @@
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLibrary\IVPLibrary_Models\bin\Debug\net8.0\IVPLibrary_Models.deps.json
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLibrary\IVPLibrary_Models\bin\Debug\net8.0\IVPLibrary_Models.dll
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLibrary\IVPLibrary_Models\bin\Debug\net8.0\IVPLibrary_Models.pdb
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLibrary\IVPLibrary_Models\obj\Debug\net8.0\IVPLibrary_Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLibrary\IVPLibrary_Models\obj\Debug\net8.0\IVPLibrary_Models.AssemblyInfoInputs.cache
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLibrary\IVPLibrary_Models\obj\Debug\net8.0\IVPLibrary_Models.AssemblyInfo.cs
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLibrary\IVPLibrary_Models\obj\Debug\net8.0\IVPLibrary_Models.csproj.CoreCompileInputs.cache
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLibrary\IVPLibrary_Models\obj\Debug\net8.0\IVPLibrary_Models.dll
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLibrary\IVPLibrary_Models\obj\Debug\net8.0\refint\IVPLibrary_Models.dll
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLibrary\IVPLibrary_Models\obj\Debug\net8.0\IVPLibrary_Models.pdb
+C:\Users\vaaggarwal\Desktop\.NET\C# Programs\IVPLibrary\IVPLibrary_Models\obj\Debug\net8.0\ref\IVPLibrary_Models.dll

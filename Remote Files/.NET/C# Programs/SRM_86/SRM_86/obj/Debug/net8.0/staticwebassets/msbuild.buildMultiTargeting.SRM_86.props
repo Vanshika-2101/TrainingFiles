@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SRM_86.props" />
+</Project>
